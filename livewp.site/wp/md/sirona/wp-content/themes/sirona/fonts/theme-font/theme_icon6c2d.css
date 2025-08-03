@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Theme_icon";
+	src: url("Theme.woff") format("woff"),
+		 url("Theme.svg#Theme") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Theme_icon";
+		src: url("Theme.svg#Theme") format("svg");
+	}
+}
+
+[class^="theme_icon-"]:before, [class*=" theme_icon-"]:before,
+[class^="theme_icon-"]:after, [class*=" theme_icon-"]:after {
+	font-family: Theme_icon;
+	font-size: 26px;
+	font-style: normal;
+	margin-left: 9px;
+}
+
+.theme_icon-bag:before { content: "\f100"; }        /* Bag */
+.theme_icon-search:before { content: "\f101"; }     /* Search */
+.theme_icon-close:before { content: "\f102"; }      /* Close */
+.theme_icon-fullscreen:before { content: "\f103"; } /* Fullscreen */
+.theme_icon-like:before { content: "\f104"; }       /* Star */
+.theme_icon-ruller:before { content: "\f105"; }     /* Ruller */
+.theme_icon-heart:before { content: "\f106"; }      /* Heart */
+.theme_icon-null:before { content: "\f107"; }       /* Remove */
+.theme_icon-error:before { content: "\f108"; }      /* Warning */
+.theme_icon-close-1:before { content: "\f109"; }    /* Cancel */
+.theme_icon-tick:before { content: "\f10a"; }       /* Done */
+.theme_icon-share:before { content: "\f10b"; }      /* Share */
+.theme_icon-comment:before { content: "\f10c"; }    /* Chat */
+.theme_icon-link:before { content: "\f10d"; }       /* Link */
+.theme_icon-mail:before { content: "\f10e"; }       /* Mail */
+.theme_icon-next:before { content: "\f10f"; }       /* Arrow */
+.theme_icon-calendar:before { content: "\f110"; }   /* Calendar */
+.theme_icon-quote:before { content: "\f111"; }      /* Quote */
+
